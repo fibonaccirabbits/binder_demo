@@ -79,6 +79,7 @@ def get_residue_pairs():
 	outfile.close()
 
 
+# <codecell>
 def get_residue_pairs_ab():
 	'''
 	Gets antibody-antigen residue pairs according to some distance d.
@@ -121,6 +122,7 @@ def get_residue_pairs_ab():
 	outfile.close()
 
 
+# <codecell>
 def lh_counts():
 	'''
 	Checks light and heavy chain counts
@@ -150,7 +152,7 @@ def lh_counts():
 	#print(help(sns.barplot))	
 	return H, L
 
-
+# <codecell>
 def respair_exams(filepath):
 	'''
 	Examines respair.csv
@@ -170,6 +172,7 @@ def respair_exams(filepath):
 	os.system('open %s' % outname2)
 	
 	
+# <codecell>
 def positional_distance(filepath):
 	'''
 	Plots distance between positions
@@ -193,6 +196,8 @@ def positional_distance(filepath):
 	os.system('open %s' % outname)
 	#print(help(df))
 
+
+# <codecell>
 def get_h_epitope():
 	'''
 	Filters respair.csv for heavy chain epitopes. 
@@ -210,6 +215,7 @@ def get_h_epitope():
 	#plt.show()
 
 
+# <codecell>
 def get_h_epitope_ab():
 	'''
 	Filters respair.csv for heavy chain epitopes. 
@@ -226,6 +232,8 @@ def get_h_epitope_ab():
 	newdf.to_csv(filepath, index=False)
 	#plt.show()
 
+
+# <codecell>
 def get_seq_pair():
 	'''
 	Gets antibody-antigen sequence pairs
@@ -255,6 +263,8 @@ def get_seq_pair():
 	newdf.to_csv(outfile, index=False)
 	#print(help(pd.DataFrame))
 
+
+# <codecell>
 def find_car():
 	'''
 	Finds CAR segment on a sequence

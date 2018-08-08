@@ -1,1 +1,1 @@
-link to binde: https://mybinder.org/v2/gh/fibonaccirabbits/binder_demo/master
+link to binder: https://mybinder.org/v2/gh/fibonaccirabbits/binder_demo/master
